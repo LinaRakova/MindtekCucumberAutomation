@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="MavenPackageUpdate" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="excludeList">
+        <list>
+          <option value="junit:junit" />
+          <option value="org.seleniumhq.selenium:selenium-java" />
+          <option value="io.github.bonigarcia:webdrivermanager" />
+          <option value="io.cucumber:cucumber-java" />
+          <option value="io.cucumber:cucumber-junit" />
+          <option value="org.apache.poi:poi-ooxml" />
+          <option value="org.postgresql:postgresql" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,15 @@
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/pages/WebordersLoginPage.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/pages/WebordersMainPage.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/runner/Runner.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/steps/Hooks.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/utilities/BrowserUtils.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/pages/EtsyMainPage.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/utilities/ExcelTest.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/utilities/ExcelUtils.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/pages/WebordersOrderPage.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/steps/WebOrdersSteps.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/steps/WeatherbaseSteps.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/utilities/Driver.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/steps/EtsySteps.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/runner/ReRunner.java
+/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/src/test/java/utilities/ConfigReader.java

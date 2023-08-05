@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.Runner" time="236.1" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/target/test-classes:/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/target/classes:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/vassilina/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/vassilina/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/vassilina/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/vassilina/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/vassilina/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/vassilina/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/vassilina/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/vassilina/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/vassilina/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/vassilina/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/vassilina/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/vassilina/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/vassilina/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/vassilina/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/vassilina/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/vassilina/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/vassilina/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/vassilina/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/vassilina/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/vassilina/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vassilina/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/vassilina/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/vassilina/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/vassilina/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/vassilina/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/vassilina/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/vassilina/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/vassilina/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-junit/6.9.1/cucumber-junit-6.9.1.jar:/Users/vassilina/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/Users/vassilina/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/vassilina/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/vassilina/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/Users/vassilina/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/vassilina/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/vassilina/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/target/surefire/surefirebooter-20230706194759217_3.jar /Users/vassilina/IdeaProjects/MindtekCucumberAutomation/target/surefire 2023-07-06T19-47-58_967-jvmRun1 surefire-20230706194759217_1tmp surefire_0-20230706194759217_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/target/test-classes:/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/target/classes:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/vassilina/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/vassilina/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/vassilina/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/vassilina/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/vassilina/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/vassilina/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/vassilina/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/vassilina/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/vassilina/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/vassilina/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/vassilina/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/vassilina/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/vassilina/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/vassilina/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/vassilina/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/vassilina/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/vassilina/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/vassilina/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/vassilina/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/vassilina/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/vassilina/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vassilina/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/vassilina/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/vassilina/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/vassilina/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/vassilina/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/vassilina/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/vassilina/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/vassilina/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/vassilina/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/vassilina/.m2/repository/io/cucumber/cucumber-junit/6.9.1/cucumber-junit-6.9.1.jar:/Users/vassilina/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/Users/vassilina/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/vassilina/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/vassilina/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/Users/vassilina/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/vassilina/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/vassilina/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vassilina"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/vassilina/IdeaProjects/MindtekCucumberAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/vassilina/IdeaProjects/MindtekCucumberAutomation/target/surefire/surefirebooter-20230706194759217_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
+    <property name="user.name" value="vassilina"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.4.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/vassilina/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/p1/rnccmhdj30bb8b953y12gjsm0000gn/T/"/>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="/Users/vassilina/IdeaProjects/MindtekCucumberAutomation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="SkipTests" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/vassilina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Validating module functionality" classname="Validating Modules functionality" time="96.678">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 26167
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2023 7:48:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validating search result matches the searched item" classname="Validating Search functionality" time="36.974">
+    <system-out><![CDATA[Custom Neon Sign | Neon sign | Aesthetic Neon Sign | Name Neon Sign | Neon sign | Wedding Neon Sign | LED signs | Wall Decor | Home decor doesn't contain carpet
+Custom Neon Sign | Neon Sign | Room Decor | LED Neon Light| Neon Bar Sign| Neon Bedroom Sign | Neon Light | Christmas | Personalized | Neon doesn't contain carpet
+Wet Grass Rug,Grass Rug,Green Rug,Quote Rug,Grass Pattern Rug,Grass Theme Rug,Modern Rug, Popular Rug, Area Rug, Custom Rug, Living Room Rug doesn't contain carpet
+Custom Neon Sign | Neon Sign | Aesthetic Custom Neon Sign | Room decor | LED Neon Sign | Wedding Neon Sign | Neon Sign Light | Wall decor doesn't contain carpet
+Living Room Rug Bedroom Rug Handmade Adeline Rug 8x10, 5x8 Rug, 9x12 Rug, 6x9 Rug doesn't contain carpet
+Moroccan rug , Beni Mrirt rug, Premium quality Moroccan rug, Modern artwork, Handwoven large Shaggy rug doesn't contain carpet
+Retro Hip Hop Bedroom Rug| Black 8 Billiard Mat| Urban Vintage Area Rug| Unique Street Style Decor| Nostalgic 90s Design| Modern Home Decor doesn't contain carpet
+MOROCCAN RUG Vintage Colorful Rug Kitchen Bathroom Handmade Rug Personalized Colorful Rug Turkish Rug Living Room Rugs Antique Washable Rug doesn't contain carpet
+Wool Rug Handmade Persian Area Rug Runner Oushak Channing Red Rug 8x10 , 5x8, 6x9, 9x12 doesn't contain carpet
+Rugs 6x9, Red Rug 6x9, Turkish Rug 6x9, Oriental Rug 6x9, Kilim Rug 6x9, Rug 8x10, Turkish Rug Oushak, Area Rug 6x9, Turkish Kilim, Rug doesn't contain carpet
+Custom neon signs | Neon sign | Neon Light Sign | Neon Sign Custom | Neon Sign Bedroom | Personalized Neon Sign | LED Neon Sign | Home decor doesn't contain carpet
+Cassia floral Hand tufted multicolored rug for home , New home gift ,Home decor , living room ..(quick to ship) doesn't contain carpet
+Designer | Zen Ocean Wave Abstract Rug, Area Rug, Bedroom Rug, Art Rug, Modern Rug, Living Room Rug, Bath Mat, Tufted Rug, Rug Runner doesn't contain carpet
+Handmade Collector's Piece, Vintage Top Quality Oriental Rug, Open Field & Floral Medallion, Mint Condition, 11'x17'9" doesn't contain carpet
+Custom Neon Sign | Neon Sign | Personalized Gifts | Wedding Signs | Name Signs | Led Neon Lights | Neon Signs | Neon Sign bar doesn't contain carpet
+Housewarming Gift | Wedding Gift | Custom Doormat | Personalized Doormat | Closing Gift | Welcome Doormat | Front Door Mat | Monogram Rug doesn't contain carpet
+Moroccan rug Ivory - Solid creamy rug - Plain cream rug - Wool Berber rug - Beni ourain rug - Custom rug - Handmade rug - Moroccan area rug doesn't contain carpet
+Custom Tufted Rugs | Customized Anime Rug | Personalized Cartoon Door Mat | Custom rugs for Kids bedroom | Aesthetic Area rugs doesn't contain carpet
+8 Ball Rug Tufted | Blue 8 Ball Bedroom Aesthetics Rug, Minimalist Tufted Rug, Housewarming Gift, Handmade Rug, Home Decor Gift, Y2K Decor doesn't contain carpet
+8x10 Rugs, Tufted 5x8, Wool Rugs 6x9, Living Room Rugs, Abstract Rug, Custom Rug doesn't contain carpet
+Monstera Leaf Rug, Green Rug, Fluffy Bath Rug, Tufted Area Rug, Handmade Rug, Plant Rug, Aesthetic Rug for Bedroom, Minimalist Home Decor doesn't contain carpet
+Keith Haring Graffiti Casual Tapestry Blanket Throws doesn't contain carpet
+Moroccan rug , Beni Mrirt rug, Premium quality Moroccan rug, Modern artwork, Handwoven large Shaggy rug doesn't contain carpet
+Keep Off,656 Keep Off Rug VRGL, Keepoff, Black Rug, Black White Rug, Living Room Rug, Popular Rug,Fantastic Rug,Modern Design, doesn't contain carpet
+Hand Braided Bohemian Colorful Cotton Chindi Area Rug multi color Home Decor Rugs cotton area rugs Round Rug Home Decor Rag Rug Area Rug doesn't contain carpet
+White Boho Jute Rug, Natural Jute Rug, Bohemian Rug, Hand Braided Jute Rug, Custom Rug, Moroccan Rug, Large Area Rug, Handwoven Rug doesn't contain carpet
+Natural Jute Handwoven Boho Area Rug/ Large Area Rug/ Eco Friendly Rug/ Turkish Solid Custom Size Rug/Indian Decor rug,Custom size rug doesn't contain carpet
+Large handwoven cream rug 140x200 cm, living room rug, cream area rug, soft rug, nursery rug, bohemian decoration, boho rug, salon tapis doesn't contain carpet
+Custom Family & Pet Name Welcome Mat | Custom Names Doormat | Welcome Mat | Housewarming Gift | Pet Lover Gift | New Home Closing Gift doesn't contain carpet
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 2351
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2023 7:49:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validating price range functionality for searched item" classname="Validating Search functionality" time="46.708">
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 48933
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2023 7:50:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validating Login Functionality with valid credentials" classname="Validating Login Functionality" time="8.769">
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 8170
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2023 7:51:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validating login functionality with invalid credentials" classname="Validating Login Functionality" time="7.785">
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 19821
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2023 7:51:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validating discount calculator #1" classname="Validating Order Creation" time="9.389">
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 48815
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2023 7:51:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validating discount calculator #2" classname="Validating Order Creation" time="9.363">
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 29269
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2023 7:51:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validating discount calculator #3" classname="Validating Order Creation" time="9.607">
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 47893
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2023 7:51:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validating Order Creating functionality" classname="Validating Order Creation" time="10.623">
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 18301
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2023 7:51:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
