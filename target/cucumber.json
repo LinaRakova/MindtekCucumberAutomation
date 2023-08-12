@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-11T01:22:48.942Z",
+        "line": 22,
+        "name": "Validating PUT booking Api call",
+        "description": "",
+        "id": "validating-booking-api-calls;validating-put-booking-api-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1040541000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user creates booking with POST api call with data",
+            "match": {
+              "location": "steps.BookingApiSteps.user_creates_booking_with_post_api_call_with_data(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "Jim"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Brown"
+                ]
+              },
+              {
+                "cells": [
+                  "totalprice",
+                  "111"
+                ]
+              },
+              {
+                "cells": [
+                  "checkin",
+                  "2018-01-01"
+                ]
+              },
+              {
+                "cells": [
+                  "checkout",
+                  "2019-01-01"
+                ]
+              },
+              {
+                "cells": [
+                  "additionalneeds",
+                  "Breakfast"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 217481000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user updates booking with PUT api call with data",
+            "match": {
+              "location": "steps.BookingApiSteps.user_updates_booking_with_put_api_call_with_data(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "James"
+                ]
+              },
+              {
+                "cells": [
+                  "checkin",
+                  "2023-02-02"
+                ]
+              },
+              {
+                "cells": [
+                  "checkout",
+                  "2023-03-03"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206134000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user gets updated booking with GET api call",
+            "match": {
+              "location": "steps.BookingApiSteps.user_gets_updated_booking_with_get_api_call()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11328000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user validates 200 status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.BookingApiSteps.user_validates_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5126000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user validates updated data matches with response of get call",
+            "match": {
+              "location": "steps.BookingApiSteps.user_validates_updated_data_matches_with_response_of_get_call()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MB-102"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "Validating booking api calls",
+    "description": "",
+    "id": "validating-booking-api-calls",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BookingApiTests.feature",
+    "tags": []
+  }
+]

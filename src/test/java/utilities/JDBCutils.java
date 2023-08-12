@@ -12,19 +12,18 @@ public class JDBCutils {
     private static Statement statement;
     private static ResultSet resultSet;
 
-    public static void establishConnection()  {
+    public static void establishConnection(String name_of_DataBase)  {
 
         try {
             connection = DriverManager.getConnection(
-                    ConfigReader.getProperty("DBURL"),
-                    ConfigReader.getProperty("DBUserName"),
-                    ConfigReader.getProperty("DBPassword")
+                    ConfigReader.getProperty(name_of_DataBase+"DBURL"),
+                    ConfigReader.getProperty(name_of_DataBase+"DBUserName"),
+                    ConfigReader.getProperty(name_of_DataBase+"DBPassword")
             );
             statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
         } catch (SQLException e) {
             System.out.println(e);
         }
-
     }
 
     public static List<Map<String, Object>> runQuery(String query) {

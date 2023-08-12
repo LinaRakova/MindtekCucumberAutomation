@@ -29,6 +29,7 @@ public class EtsySteps {
 
     @Given("User navigates to Etsy application")
     public void user_navigates_to_etsy_application() {
+
         driver.get(ConfigReader.getProperty("EtsyURL"));
     }
 
@@ -47,6 +48,7 @@ public class EtsySteps {
             throw new RuntimeException(e);
         }
         boolean isFound = false;
+
         List<String> keywords = dataTable.asList();
         for(WebElement item : mainPage.itemTitles) {
             String itemDescription = item.getText();

@@ -16,7 +16,7 @@ public class JDBCTest2 {
         );
 
         Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
-//        ResultSet resultSet = statement.executeQuery("SELECT * FROM employees");
+//        ResultSet resultSet1 = statement.executeQuery("SELECT * FROM employees");
 //
 //        List<Map<String,Object>> tableData = new ArrayList<>();
 //
